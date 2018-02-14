@@ -3,7 +3,7 @@ body {background:#2B2B2B; color:#ECECEA;}
 .nav:link {color:#ECECEA;
 		background-color:#DE1B1B;
     	color: white;
-    	padding: 14px 25px;
+    	padding: 5px 8px;
     	text-align: center; 
     	text-decoration: none;
     	display: inline-block;}
@@ -17,7 +17,7 @@ body {font-family:arial;}
 		text-decoration:none;}
 .hyperlinks:visited {color:#D9853B;}
 .gallery {
-  width: 640px;
+  max-width:100%;
   margin: 0 auto;
   padding: 5px;
   background: #fff;
@@ -28,7 +28,7 @@ body {font-family:arial;}
   padding: 5px;}
 .gallery > div > img {
   display: block;
-  width: 200px;}
+  max-width:100%;}
 .gallery {background-color:#2B2B2B;}
 
 .price {color:#2ECC71;}
