@@ -1,17 +1,16 @@
 h1 {color:#ECECEA;}
 body {background:#2B2B2B; 
 	  color:#ECECEA;}
-.nav:link {color:#ECECEA;
-		background-color:#DE1B1B;
-    	color: white;
-    	padding: 5px 8px;
-    	text-align: center; 
-    	text-decoration: none;
-    	display: inline-block;
-    	box-shadow: 5px 5px 5px #000000;}
-.nav:visited {color:#ECECEA;}
-.nav:hover {color:#17202A;}
-.nav {font-family:arial;}
+nav ul {padding: 0;
+		margin-top: 0.5em;
+		margin-bottom: 0.5em;}
+nav li {background-color:#DE1B1B;
+		border-radius: 0.4em;
+		list-style-type: none;
+		margin: 0.8em;
+		padding: 0.5em;}
+nav li a {color:#ECECEA;
+		  text-decoration: none;}
 header {text-align: center;}
 body {text-align: center;}
 body {font-family:arial;}
@@ -57,24 +56,14 @@ p {font-size: 1.15em;
 /*Desktop CSS*/
 
 @media only screen and (min-width: 769px) {
-.nav:link {color:#ECECEA;
-		background-color:#DE1B1B;
-    	color: white;
-    	padding: 8px 20px;
-    	text-align: center; 
-    	text-decoration: none;
-    	display: inline-block;
-    	box-shadow: 5px 5px 5px #000000;}
-.nav:visited {color:#ECECEA;}
-.nav:hover {color:#17202A;}
-.nav {font-family:arial;}
+
 p {font-size: 1.5em;
    width: 70%;
    margin-right: auto;
    margin-left: auto;}
    
 .gallery {
-  max-width:70%;
+  max-width:100%;
   margin: 0 auto;
   padding: 10px;
   background: #fff;
@@ -90,4 +79,14 @@ p {font-size: 1.5em;
 
 .memeimage {width: 200px; height: 200px;}
 
+#container {margin-left: 15%;
+			margin-right: 15%;}
+
+nav li {display: inline;
+		float: left;
+		margin-left: 1%;
+		margin-right: 1%;
+		padding-left: 0;
+		padding-right: 0;
+		width: 18%;}
 }
