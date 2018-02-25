@@ -1,5 +1,6 @@
 h1 {color:#ECECEA;}
-body {background:#2B2B2B; color:#ECECEA;}
+body {background:#2B2B2B; 
+	  color:#ECECEA;}
 .nav:link {color:#ECECEA;
 		background-color:#DE1B1B;
     	color: white;
@@ -20,17 +21,19 @@ body {font-family:arial;}
 .gallery {
   max-width:100%;
   margin: 0 auto;
-  padding: 5px;
+  padding: 2px;
   background: #fff;
   box-shadow: 0 1px 2px rgba(0,0,0,.3);}
 .gallery > div {
   position: relative;
-  float: left;
+  float: center;
   padding: 5px;}
 .gallery > div > img {
   display: block;
   max-width:100%;}
 .gallery {background-color:#2B2B2B;}
+
+.memeimage {width: 80%;}
 
 .price {color:#2ECC71;}
 .cart:link {color:#ECECEA;
@@ -47,6 +50,44 @@ body {font-family:arial;}
 .merch {max-height: 500px;
 		max-width: 100%;}
 p {font-size: 1.15em;
+   width: 100%;
+   margin-right: auto;
+   margin-left: auto;}
+
+/*Desktop CSS*/
+
+@media only screen and (min-width: 769px) {
+.nav:link {color:#ECECEA;
+		background-color:#DE1B1B;
+    	color: white;
+    	padding: 8px 20px;
+    	text-align: center; 
+    	text-decoration: none;
+    	display: inline-block;
+    	box-shadow: 5px 5px 5px #000000;}
+.nav:visited {color:#ECECEA;}
+.nav:hover {color:#17202A;}
+.nav {font-family:arial;}
+p {font-size: 1.5em;
    width: 70%;
    margin-right: auto;
    margin-left: auto;}
+   
+.gallery {
+  max-width:70%;
+  margin: 0 auto;
+  padding: 10px;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(0,0,0,.3);}
+.gallery > div {
+  position: relative;
+  float: left;
+  padding: 5px;}
+.gallery > div > img {
+  display: block;
+  max-width:100%;}
+.gallery {background-color:#2B2B2B;}
+
+.memeimage {width: 200px; height: 200px;}
+
+}
