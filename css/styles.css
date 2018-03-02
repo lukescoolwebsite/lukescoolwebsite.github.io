@@ -7,9 +7,9 @@ footer {text-align: center;
         font-size: 0.75em;}
 body {text-align: center;}
 body {font-family:arial;}
-.hyperlinks:link {color:#D9853B;
+.hyperlinks:link {color:#DE1B1B;
 		text-decoration:none;}
-.hyperlinks:visited {color:#D9853B;}
+.hyperlinks:visited {color:#DE1B1B;}
 .gallery {
   max-width:100%;
   margin: 0 auto;
@@ -115,7 +115,7 @@ p {font-size: 1.5em;
     margin-left: 50px;
 }
 
-@media screen and (max-height: 450px) {
+@media screen and (max-width: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
