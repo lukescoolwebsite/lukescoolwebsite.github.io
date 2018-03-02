@@ -7,9 +7,9 @@ footer {text-align: center;
         font-size: 0.75em;}
 body {text-align: center;}
 body {font-family:arial;}
-.hyperlinks:link {color:#DE1B1B;
+.hyperlinks:link {color:#D83030;
 		text-decoration:none;}
-.hyperlinks:visited {color:#DE1B1B;}
+.hyperlinks:visited {color:#D83030;}
 .gallery {
   max-width:100%;
   margin: 0 auto;
@@ -29,7 +29,7 @@ body {font-family:arial;}
 
 .price {color:#2ECC71;}
 .cart:link {color:#ECECEA;
-		background-color:#DE1B1B;
+		background-color:#D83030;
     	color: white;
     	padding: 14px 25px;
     	text-align: center; 
@@ -104,7 +104,7 @@ p {font-size: 1.5em;
 }
 
 .sidenav a:hover {
-    color: #DE1B1B;
+    color: #D83030;
 }
 
 .sidenav .closebtn {
